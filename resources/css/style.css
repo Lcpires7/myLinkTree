@@ -13,7 +13,10 @@ body {
 }
 
 body > div {
-    width: 300px;
+    margin: 0 .8rem;
+    min-width: 300px;
+    max-width: 500px;
+    width: 100%;
     border: black solid 2px;
     height: 300px;
 }
