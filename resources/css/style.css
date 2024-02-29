@@ -19,6 +19,7 @@ body > div {
     width: 100%;
     border: black solid 2px;
     height: 300px;
+    border-radius: 8px;
 }
 
 div.user {
