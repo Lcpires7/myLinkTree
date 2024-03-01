@@ -54,11 +54,12 @@ li {
     border: 1px solid black;
     margin: .5rem;
     border-radius:  .5rem;
-    padding: .5rem;
+    padding: 1rem .5rem;
     font-size: 1.5rem;
-    background-color: #f7c56f;;
+    background-color: #f7c56f;
 }
 
 li a {
-    color: #0E84fa;
+    color: black;
+    text-decoration: none;
 }
