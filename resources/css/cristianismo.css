@@ -7,10 +7,10 @@
 
 section {
     display: grid !important;
-    grid-auto-rows: auto;
+    grid-auto-rows: auto !important;
     row-gap: .5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
 }
 
 div.card {
@@ -21,7 +21,7 @@ div.card {
 }
 
 div.card img {
-    height: 70px;
+    height: 100px;
 }
 
 div.card div h2 {
