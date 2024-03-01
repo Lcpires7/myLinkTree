@@ -24,11 +24,12 @@ header {
 
 section {
     display: grid !important;
-    grid-auto-rows: auto !important;
+    grid-auto-rows: 100px !important;
     row-gap: .5rem;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
     background-color: #7f91a2;
+    min-height: 100vh;
 }
 
 strong {
