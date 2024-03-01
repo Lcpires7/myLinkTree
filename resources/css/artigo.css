@@ -1,0 +1,35 @@
+* { font-size:  16px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif !important;
+}
+
+section {
+    padding: 2.5rem 1rem;
+}
+
+section h2 {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    margin-bottom: 2rem;
+}
+
+section figure {
+    border: 1px solid black;
+}
+
+section img {
+    display: block;
+    width: 250px;
+    height: 200px;
+    margin: auto;
+}
+
+section p:first-of-type {
+    margin-top: 2.5rem;
+}
+
+section p {
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif !important;
+    margin-bottom: .5rem;
+}
