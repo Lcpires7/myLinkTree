@@ -15,17 +15,20 @@ section {
 
 div.card {
     display: grid;
-    grid-template-columns: 30fr 70fr;
+    grid-template-columns: 3fr 7fr !important;
     column-gap: 8px;
     background-color: #d2d0d0;
 }
 
-div.card img {
+div.card > div {
     height: 100px;
+    width: 100%;
+    overflow: hidden;
+    
 }
 
-div.card div h2 {
-    
+div.card > div img {
+    height: 100px;
 }
 
 div.detalhes h2 {
@@ -35,6 +38,6 @@ div.detalhes h2 {
 }
 
 div.detalhes p{
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin: .5rem 0;
 }
