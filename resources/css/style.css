@@ -35,7 +35,7 @@ div.user {
 div.user img {
     width: 50px;
     border-radius: 50%;
-    border: 3px solid rgb(46, 155, 210);
+    border: 3px solid #0E84fa;
     margin-right: .5rem;
 }
 div.detalhes span {
@@ -56,4 +56,9 @@ li {
     border-radius:  .5rem;
     padding: .5rem;
     font-size: 1.5rem;
+    background-color: #f7c56f;;
+}
+
+li a {
+    color: #0E84fa;
 }
